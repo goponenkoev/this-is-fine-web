@@ -5,7 +5,7 @@ class NavBar extends React.Component {
     render() {
         return <NavBarWrapper>
             <NavBarLogoWrapper>
-                <NavBarLogo>LOGO</NavBarLogo>
+                <NavBarLogo>This Is Fine</NavBarLogo>
             </NavBarLogoWrapper>
         </NavBarWrapper>;
     }

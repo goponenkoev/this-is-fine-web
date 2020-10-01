@@ -10,6 +10,5 @@ export const AppLayout = styled.div`
 export const ContentLayout = styled.div`
   display: block;
   width: 100%;
-  height: 100%;
   background-color: #fcfcfc;
 `
