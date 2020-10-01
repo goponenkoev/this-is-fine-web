@@ -1,17 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar/NavBar';
+import Main from "./Main/Main";
+import {AppLayout, ContentLayout} from './App.style';
+import {GlobalStyle} from "./Global.style";
+import Header from "./Header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This is fine to not know everything
-        </p>
-      </header>
-    </div>
+    <AppLayout>
+      <NavBar/>
+      <ContentLayout>
+        <Header/>
+        <Main/>
+      </ContentLayout>
+      <GlobalStyle/>
+    </AppLayout>
   );
 }
 
