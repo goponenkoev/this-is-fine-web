@@ -15,15 +15,10 @@ export const NavBarLogoWrapper = styled.div`
   margin-top: 65px;
 `
 
-export const NavBarLogo = styled.div`
+export const NavBarLogo = styled.img`
   display: flex;
   text-align: center;
   align-items: center;
-  height: 150px;
-  width: 150px;
-  font-size: 2.5rem;
-  color: var(--Main800);
-  border-radius: 50%;
-  padding: 15px 15px;
-  background-color: var(--Main200);
+  height: 180px;
+  width: 180px;
 `
