@@ -3,16 +3,18 @@ import {createGlobalStyle} from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 
  :root {
-    --Main900: #504457;
-    --Main800: #5e5066;
-    --Main700: #8f28a8;
-    --Main600: #af8dc2;
-    --Main500: #c363db;
-    --Main400: #d495e6;
+    --Main900: #4f4a4a;
+    --Main800: #4a1f16;
+    --Main700: #d64d31;
+    --Main600: #f7502f;
+    --Main500: #e88f5f;
+    --Main400: #e8af90;
     --Main300: #000000;
-    --Main200: #f7dbff;
-    --Main100: #fbedff;
-    --Main50: #fefaff;
+    --Main200: #ffebe0;
+    --Main100: #fcf4f0;
+    --Main50: #fffdfc;
+    
+    --HeaderHeight: 48px;
  }
  
  html, body, #root {

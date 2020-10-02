@@ -5,5 +5,5 @@ export const HeaderWrapper = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  height: 48px;
+  height: var(--HeaderHeight);
 `
