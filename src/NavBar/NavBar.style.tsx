@@ -4,6 +4,10 @@ export const NavBarWrapper = styled.div`
   background-color: var(--Main900);
   display: block;
   width: 250px;
+  
+  @media (max-width: 768px) {
+    display: none;
+  }
 `
 
 export const NavBarLogoWrapper = styled.div`
