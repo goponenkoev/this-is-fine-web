@@ -4,13 +4,16 @@ export const MainWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 90%;
   background-color: var(--Main50);
 `
 
 export const ContentWrapper = styled.div`
-  display: block;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
 `
 
 export const Title = styled.div`

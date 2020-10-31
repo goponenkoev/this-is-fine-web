@@ -3,8 +3,8 @@ import './App.css';
 import NavBar from './NavBar/NavBar';
 import Main from "./Main/Main";
 import {AppLayout, ContentLayout} from './App.style';
-import {GlobalStyle} from "./Global.style";
-import Header from "./Header/Header";
+import {GlobalStyle} from './Global.style';
+import Header from './Header/Header';
 
 function App() {
   return (

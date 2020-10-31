@@ -1,18 +1,13 @@
 import React from 'react';
-import logo from '../assets/images/logo.svg';
-import {MainWrapper, ContentWrapper, Title} from './Main.style';
+import {MainWrapper, ContentWrapper} from './Main.style';
+import QuestionCards from "./QuestionCards/QuestionCards";
 
 const Main = () => {
 
   return (
     <MainWrapper>
       <ContentWrapper>
-        <img src={logo} className="App-logo" alt="logo"/>
-        <Title>
-          <p>
-            This is fine to not know everything
-          </p>
-        </Title>
+        <QuestionCards/>
       </ContentWrapper>
     </MainWrapper>
   )
